@@ -1,0 +1,163 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #1f2937;
+	color: white;
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
+header a:hover {
+	color: lightblue;
+}
+
+header h1 {
+	font-size: 24px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-bottom: 100px;
+}
+
+body .awesome {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 100px;
+	gap: 150px;
+}
+
+body .awesome h1 {
+	font-size: 48px;
+}
+
+body .awesome button {
+	background-color: #3882f6;
+	border-radius: 5px;
+	border-style: none;
+	color: white;
+	padding: 0.5rem 2rem;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+body .awesome .placeholder {
+	background-color: gray;
+	text-align: center;
+	width: 1100px;
+	height: 200px;
+	display: flex;
+}
+
+body .awesome .placeholder p {
+	margin: auto;
+}
+
+body .information {
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+body .information h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+body .cards {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 700px;
+	margin: auto;
+	gap: 50px;
+}
+
+body .cards .illustration .square {
+	height: 150px;
+	width: 150px;
+	border-color: #3882f6;
+	border-radius: 15px;
+	border-style: solid;
+	margin: auto;
+}
+
+body .cards .illustration p {
+	text-align: center;
+}
+
+body .quote {
+	margin-top: 100px;
+	background-color: #e5e7eb;
+	padding: 100px 500px;
+}
+
+body .quote .inspiring {
+	font-size: 36px;
+	font-style: italic;
+	margin: auto;
+} 
+
+body .quote .thor {
+	text-align: right;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+body .sign {
+	background-color: #3882f6;
+	color: white;
+	margin: auto;
+	margin-top: 100px;
+	margin-left: 400px;
+	margin-right: 400px;
+	border-radius: 15px;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+body .sign button {
+	background-color: #3882f6;
+	border-radius: 5px;
+	border-style: none;
+	border-color: white;
+	border-style: solid;
+	color: white;
+	padding: 0.5rem 2rem;
+	margin-top: 1rem;
+	font-weight: bold;
+	margin: auto;
+}
+
+body .sign .callto {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	font-size: 18px;
+}
+
+body footer {
+	background-color: #1f2937;
+	padding: 50px 400px;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+}
